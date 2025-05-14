@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Quản lý sản phẩm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quản lý sản phẩm</h1>
+        <form id="productForm">
+            <input type="text" id="name" placeholder="Tên sản phẩm" required>
+            <input type="number" id="price" placeholder="Giá" required min="0">
+            <input type="number" id="stock" placeholder="Tồn kho" required min="0">
+            <button type="button" id="addBtn">Thêm sản phẩm</button>
+            <button type="button" id="updateBtn" disabled>Cập nhật</button>
+        </form>
+        
+        <div id="message"></div>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Tên</th>
+                    <th>Giá</th>
+                    <th>Tồn kho</th>
+                    <th>Hành động</th>
+                </tr>
+            </thead>
+            <tbody id="productList"></tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
