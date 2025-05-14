@@ -1,5 +1,6 @@
 ### Cách cài đặt và khởi chạy
 - Project này của em sử dụng VSCode để làm công cụ lập trình
+- Project này sử dụng các công nghệ sau cho backend: expressjs, mysql2
 - Yêu cầu: 
 	- Đã cài đặt nodejs trong máy.
 	- Đã cài đặt VSCode trong máy.
